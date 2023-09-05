@@ -1,0 +1,42 @@
+*AND:
+TO fetch document with more than one condition and all condition must be satisfy
+
+
+*Or:
+to fetch document with more than one condition and onqe of the conditiom must be satisfy
+
+*nor:
+Nor is logical query operator that allows the user to perform logical nor operation on array of one or both query expressions
+
+*in:
+match any of the value in array
+
+Match the value that are not equal to the given value	
+
+
+
+Query
+1.Update only one document with branch='cse' and age=21 where age=5
+2.to display all the documents where age >25 
+3.To display all the documents where age>25 and <50.
+4.To display exact match of the document where age is 27
+5.TO didplay all the  document other than age is 22
+6.To display match any of the value in array having 25 and 30
+7.To display other than match any of the value in array 25 and 30
+Field Update operator:
+
+$increment:Increment the value of the field by specified the amount
+$multiply:multiply value of the fied by specified amount
+$rename:Rename tge field
+$set:Set the value of the field in document
+$unset:Remove the specified field
+ 
+Multiply age field by 0.5 for aLL THe DOCUMENTS WHERE name=p1
+Multiply age field by 2 for aLL THe DOCUMENTS WHERE name=p1
+
+*Mangodb cursor:
+-->when find method is used to find document present in a given collection then this method return the pointer which will coin to a document of a collection this pointer is known as cursor
+
+query:
+1.table people add one field join_date 
+
